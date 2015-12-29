@@ -1,1 +1,107 @@
 /* Empty. Add your own CSS if you like */
+body {
+  background-color: #062e2e;
+}
+
+.view-container, .view {
+  background-color: #062e2e;
+}
+
+h1,h2,h3 {
+  color: #fff;
+}
+/*Important, do not modified*/
+.greenlight {
+  color: #3edcab;
+}
+
+.greendark {
+  color: #062e2e;
+}
+
+.yellow {
+  color: #ffff23;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.red {
+  color: #ff5652;
+}
+
+.padding10 {
+  padding: 10px;
+}
+
+.item {
+  background-color: #062e2e;
+  border-style: dashed;
+  border-bottom: 1px #3edcab;
+}
+
+a.item-content {
+    background-color: #062e2e;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.3em;
+  font-size: 24px;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+/*End Important*/
+/*
+  Custom
+*/
+.highestHeading {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.parentSologan {
+  border-top: solid 1px #3edcab;
+  border-bottom: solid 1px #3edcab;
+}
+
+.sologan {
+  padding: 6px 0 0 15px;
+  font-size: 25px;
+}
+
+.sepecial {
+  color: white;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 30px;
+  background-color: #1c4a4a;
+  border-radius: 5px;
+  position: relative;
+}
+
+p.sepecial::after {
+  border-top: 12px solid #1c4a4a;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  bottom: 0px;
+  content: "";
+  margin-left: -21px;
+  width: 0;
+  height: 0;
+  background-color: #062e2e;
+  position: absolute;
+  left: 80px;
+  bottom: -11px;
+}

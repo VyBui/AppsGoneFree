@@ -1,9 +1,59 @@
 <ion-view view-title="Playlists">
   <ion-content>
+    <h1 class="highestHeading">Apps Gone Free</h1>
     <ion-list>
+      <div class="parentSologan">
+        <div class="row">
+          <h3 class="sologan greenlight col col-90">Today's App Gone Free</h3>
+        </div>
+        <div class="row"><p class="sepecial padding10">
+          &ldquo;This week we're focusing in on apps for autism. We're worked with specials to find tools to help with Autistic learning... &rdquo;
+        </p></div>
+      </div>
       <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
-        {{playlist.title}}
+        <div class="row">
+          <div class="col col-67">
+            <div class="row">
+              <div class="col col-40">
+                <img src="http://files.softicons.com/download/game-icons/super-mario-icons-by-sandro-pereira/png/32/Paper%20Mario.png"></img>
+              </div>
+              <div class="col col-50 row">
+                <div class="col col-90">Supper Mario</div>
+                <div class="col col-90">Mobineer</div>
+                <div class="col col-90">
+                  <div class="rating">
+                    <span> &#9734;</span><span> &#9734;</span><span> &#9734;</span><span> &#9734;</span><span> &#9734;</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-33 row">
+            <div class="col col-90"></div>
+            <div class="col col-90"><button>MORE</buttom></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-10">
+          What?</div>
+          <div class="col col-80">
+          Allow your child to explore the iteractive world of Karl's Castle with this fun entertainment app</div>
+        </div>
+        <div class="row">
+          <div class="col col-90">
+          Allow your child to explore the iteractive world of Karl's Castle with this fun entertainment app</div>
+        </div>
+        <div class="row">
+          <div class="col col-10">
+          Why?</div>
+          <div class="col col-80">
+          Allow your child to explore the iteractive world of Karl's Castle with this fun entertainment app</div>
+        </div>
       </ion-item>
+      <div class="row">
+        <button>Want more? View previous issue >>></button>
+      </div>
+
     </ion-list>
   </ion-content>
 </ion-view>
